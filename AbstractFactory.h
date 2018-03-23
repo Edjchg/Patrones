@@ -5,8 +5,14 @@
 #ifndef PATRONES_ABSTRACTFACTORY_H
 #define PATRONES_ABSTRACTFACTORY_H
 
-
+#include "WindowAbstract.h"
 class AbstractFactory {
+
+        public:
+        virtual WindowAbstract* getHerramientas() = 0;
+        virtual WindowAbstract* getTipo() = 0;
+
+
 
 };
 
