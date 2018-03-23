@@ -3,4 +3,4 @@ project(Patrones)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(Patrones main.cpp Singleton.cpp Singleton.h)
+add_executable(Patrones main.cpp Singleton.cpp Singleton.h AbstractFactory.cpp AbstractFactory.h)
