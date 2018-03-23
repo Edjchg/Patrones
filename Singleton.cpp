@@ -9,11 +9,13 @@ using namespace std;
 Singleton::Singleton() {
     memoria = 0;
 }
+
 Singleton& Singleton::Instancia() {
     static Singleton instancia;
     return instancia;
 
 }
+
 int Singleton::TomarMemoria(int espacio) {
 
 

@@ -7,7 +7,8 @@
 #include <array>
 
 /*
- * Este patrón de diseño se establecerá para la petición de memoria, el cual es un recurso costoso y solo se debería pedir
+ * Este patrón de diseño se establecerá para la petición de memoria,
+ * el cual es un recurso costoso y solo se debería pedir
  * una vez al servidor.
  */
 class Singleton {
